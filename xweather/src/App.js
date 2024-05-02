@@ -35,6 +35,7 @@ function App() {
     <div className='container'>
       <div className="search-container">
         <input
+          type="text"
           placeholder='Enter city Name'
           value={city}
           onChange={e => setCity(e.target.value)}
