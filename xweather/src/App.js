@@ -48,7 +48,7 @@ function App() {
       {error && <p>{error}</p>}
       
       {weatherData && (
-        <div className='weather-container'>
+        <div className='weather-container'> {/* Corrected class name */}
           <div className='weather-card'>
             <p>Temperature: {weatherData.current.temp_c}°C</p>
           </div>
