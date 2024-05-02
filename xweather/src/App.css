@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 
-.weather-container {
+.weather-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
