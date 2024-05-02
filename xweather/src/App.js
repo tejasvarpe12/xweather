@@ -16,7 +16,7 @@ function App() {
     fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Failed to fetch weather data');
+          throw new Error(window.alert('Failed to fetch weather data'));
         }
         return response.json();
       })
